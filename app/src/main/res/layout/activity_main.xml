@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+    tools:context="com.android.alejandro.ej11_3.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rojo"
+            android:id="@+id/textViewRed"
+            android:layout_marginTop="45dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#f10707"
+            android:padding="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naranja"
+            android:id="@+id/textViewOrange"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#ce4501"
+            android:padding="8dp"
+            android:layout_below="@+id/textViewRed"
+            android:layout_toEndOf="@+id/textViewRed"
+            android:layout_toRightOf="@+id/textViewRed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amarillo"
+            android:id="@+id/textViewYellow"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#e9e504"
+            android:padding="8dp"
+            android:layout_below="@+id/textViewOrange"
+            android:layout_toEndOf="@+id/textViewOrange"
+            android:layout_toRightOf="@+id/textViewOrange" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verde"
+            android:id="@+id/textViewGreen"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#24d704"
+            android:padding="8dp"
+            android:layout_below="@+id/textViewYellow"
+            android:layout_toEndOf="@+id/textViewYellow"
+            android:layout_toRightOf="@+id/textViewYellow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azul"
+            android:id="@+id/textViewBlue"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp"
+            android:background="#166fdc"
+            android:padding="8dp"
+            android:layout_below="@+id/textViewGreen"
+            android:layout_toStartOf="@+id/textViewGreen"
+            android:layout_toLeftOf="@+id/textViewGreen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Violeta"
+            android:id="@+id/textViewVioleta"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#9000ff"
+            android:padding="8dp"
+            android:layout_below="@+id/textViewIndigo"
+            android:layout_toStartOf="@+id/textViewIndigo"
+            android:layout_alignLeft="@+id/textViewRed"
+            android:layout_toLeftOf="@+id/textViewIndigo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indigo"
+            android:id="@+id/textViewIndigo"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp"
+            android:background="#3206b4"
+            android:padding="8dp"
+            android:layout_below="@+id/textViewBlue"
+            android:layout_toStartOf="@+id/textViewBlue"
+            android:layout_toLeftOf="@+id/textViewBlue" />
+    </RelativeLayout>
+</RelativeLayout>
